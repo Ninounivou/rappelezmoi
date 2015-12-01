@@ -1,0 +1,207 @@
+/** Partie a remanier suivant votre theme* */
+
+/*  image a gauche */
+div #rappelezmoi_left {
+	position:absolute;
+	left:200px;
+	top:1px;
+	overflow:hidden;
+    padding:0;
+}
+
+div #rappelezmoi_img_left {
+    width:135px;
+    height:96px;
+}
+/* image a droite */
+div #rappelezmoi_right {
+	position:absolute;
+	right:1px;
+	top:0;
+}
+div #rappelezmoi_img_right {
+     width:135px;
+     height:96px;
+     overflow:hidden;
+     margin: 0 200px 0 0;
+     padding:0;
+}
+/* block colonne image call me */
+div#rappelezmoi_block_on {
+	background:url('../rappelezmoi_block.png') no-repeat;
+	width:180px;
+	height:200px;
+	display:block;
+	margin:auto;
+}
+
+#rappelezmoi_block_on span {
+    display:block;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 155px;
+	text-align: center;
+	color:black;
+}
+
+#rappelezmoi_block_on span#rappelezmoi_attente {
+	margin-top: 1px;
+	color:#448833;
+}
+/* block colonne image call treatment */
+div#rappelezmoi_block_off {
+	background:url('../rappelezmoi_block-ok.png') no-repeat;
+	width:180px;
+	height:185px;
+	display:block;
+	margin:10px auto;
+}
+
+#rappelezmoi_block_off span {
+    display:block;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 155px;
+    text-align: center;
+	color:black;
+}
+
+#rappelezmoi_block_off span#rappelezmoi_attente {
+	margin-top: 1px;
+	color:#448833;
+}
+/** fin de partie a addapter **/
+/* fromulaire */
+div #masque {
+	border-radius:20px;
+	box-shadow:0 2px 10px #4B4B4B;
+	background:#CCC;
+	display:block;
+	left:300px;
+	position:absolute;
+	top:200px;
+	width:620px;
+	z-index:9500;
+	height:380px;
+}
+
+div #box {
+	border-radius:20px;
+	box-shadow:3px 3px 0px #4B4B4B;
+	background:#f4f4f4;
+	text-align:left;
+	width:600px;
+	height:350px;
+	margin: 10px 0 0 10px;
+}
+/* boutton d'envoi du formualire pour block header */
+#submitrequesttop {
+	border-radius:11px;
+	background:#009B00;
+	border:2px solid #666;
+	color:#fff;
+	cursor:pointer;
+	font-size:11px !important;
+	font-weight: bold;
+	padding:4px 10px;
+	text-shadow:0 2px 2px #000;	
+	text-decoration:none;
+	vertical-align:middle;
+}
+/* boutton d'envoi du formualire pour block collone */
+#submitrequestcol {
+	border-radius:11px;
+	background:#009B00;
+	border:2px solid #666;
+	color:#fff;
+	cursor:pointer;
+	font-size:11px !important;
+	font-weight: bold;
+	padding:4px 10px;
+	text-shadow:0 2px 2px #000;	
+	text-decoration:none;
+	vertical-align:middle;
+}
+
+.close_formulaire {
+	border-radius:11px;
+	background:red;
+	border:2px solid #666;
+	color:#fff;
+	cursor:pointer;
+	font-size:11px !important;
+	font-weight: bold;
+	padding:4px 15px;
+	text-shadow:0 2px 2px #000;	
+	text-decoration:none;
+	vertical-align:middle;
+	float:right;
+}
+/* test et champ  du formualire  */
+#name-rap {
+	padding:4px;
+	border-radius:11px;
+	border:2px solid #666;
+	width:160px;
+	vertical-align:middle;
+}
+
+#reason-rap {
+	padding:4px;
+	border-radius:11px;
+	border:2px solid #666;
+}
+
+#phone-rap {
+	padding:4px;
+	border-radius:11px;
+	border:2px solid #666;
+	width:160px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#hour_start {
+	padding:4px;
+	border-radius:11px;
+	border:2px solid #666;
+	width:60px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#hour_end {
+	padding:4px;
+	border-radius:11px;
+	border:2px solid #666;
+	width:60px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.req  {
+	color:red;
+}
+
+.text-rap {
+	padding:0 15px 0 50px;
+	margin: 0 0 10px 0;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.champ {
+	padding:0 15px 0 10px;
+}
+
+h3 {
+	margin-top:10px;
+}
+
+table {
+	width:80%;
+}
+
+tr, td{
+	width: 50%;
+}
