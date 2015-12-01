@@ -1,0 +1,10 @@
+﻿{shop_name}, Une personne a demandé à être rappelée depuis votre boutique.
+
+Voici ses coordonnées :
+
+Nom 			: {name}
+Téléphone 		: {phone}
+Heure souhaitée : {hour} 
+Message 		: {reason}
+
+{shop_url} Réalisé par PrestaShop™
