@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>rappelezmoi</name>
+            <displayName><![CDATA[Block rappelez-moi!]]></displayName>
+            <version><![CDATA[2.0]]></version>
+            <description><![CDATA[Installez l&#039;image sur toutes vos pages et de g&eacute;rer les rappels.]]></description>
+            <author><![CDATA[loulou66)]]></author>
+            <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall>Êtes-vous sûr de vouloir désinstaller ce module, toutes les données seront perdues?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
